@@ -1,0 +1,51 @@
+@media screen and (max-width:768px){
+    .box-principal{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 100px 0px 0px 20px;
+    }
+
+    img.img1{
+        width: 85vw;
+        height: 60vh;
+    }
+    h1.h1-box{
+        font-size: 10vw;
+        width: 100%;
+        height: auto;
+    }
+    .p-box{
+        font-size: 12px;
+        width: 100%;
+        height: auto;
+    }
+    form{
+        display: flex;
+        justify-content: center;
+    }
+    button.button-box{
+        width: 65vw;
+    }
+
+    footer.fot-princ{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (max-width:1024px){
+    .button-button-box{
+        width: 35vw;
+        height: 7vh;
+    }
+    nav.fot{
+        filter: invert(1);
+        height: 5vh;
+        margin: 5px;
+        padding: 0px 40px 0 11px;
+    }
+    
+}

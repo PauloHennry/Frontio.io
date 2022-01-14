@@ -27,8 +27,6 @@ body{
     font-weight: 600;
     font-family: fantasy;
 }
-
-
 .box-principal{
     display: flex;
     justify-content: center;
@@ -76,7 +74,7 @@ body{
     transform: scale(1);
 }
 
-footer{
+.fot-princ{
     display: flex;
     justify-content: end;
     align-items: end;
@@ -90,4 +88,5 @@ footer{
 .nav-fot:hover{
     transition: ease all 0.5s;
     transform: rotate(360deg);
+    cursor: pointer;
 }
