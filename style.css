@@ -49,7 +49,7 @@ body{
 
 }
 .p-box{
-    font-size: 2vw;
+    font-size: 25px;
     font-weight: 500;
     color: white;
     padding-bottom: 40px;
@@ -65,15 +65,29 @@ body{
     border: solid 1px white;
     margin: 20px;
     box-shadow: #0000008c 6px 1px 24px 0px;
+    font-size: 25px;
+    
 }
+.button-box:hover{
+    background-color:#460583c7; 
+    color: white;
+    border: solid 1px #ffffffc7;
+    transition: ease all 0.5s;
+    transform: scale(1);
+}
+
 footer{
     display: flex;
     justify-content: end;
     align-items: end;
-    height: 25vh;
+    height: 11vh;
 }
 .nav-fot{
     filter: invert(1);
     height: 6vh;
     margin: 15px;
+}
+.nav-fot:hover{
+    transition: ease all 0.5s;
+    transform: rotate(360deg);
 }
