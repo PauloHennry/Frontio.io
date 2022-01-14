@@ -8,4 +8,72 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-color: hsl(257deg 40% 49%);
+    margin: 20px;
+    height: auto;
+}
+.nav-principal{
+    background: aliceblue;
+    height: 16vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.Link-title{
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 6vh;
+    margin: 35px;
+    font-weight: 600;
+    font-family: fantasy;
+}
+
+
+.box-principal{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0px 0px 20px;
+}
+.img1{
+    width: 50vw;
+    height: auto;
+}
+
+.h1-box{
+    font-size: 4vw;
+    font-family: serif;
+    padding-bottom: 25px;
+    color: white;
+    font-weight: 500;
+    margin: 20px;
+
+}
+.p-box{
+    font-size: 2vw;
+    font-weight: 500;
+    color: white;
+    padding-bottom: 40px;
+    margin: 20px;
+}
+.button-box{
+    height: 10vh;
+    width: 20vw;
+    border-radius: 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #8a2be2c7;
+    border: solid 1px white;
+    margin: 20px;
+    box-shadow: #0000008c 6px 1px 24px 0px;
+}
+footer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 25vh;
+}
+.nav-fot{
+    filter: invert(1);
+    height: 6vh;
+    margin: 15px;
 }
